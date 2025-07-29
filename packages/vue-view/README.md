@@ -7,6 +7,6 @@ form-cross-view 是一个跨视图动态表单生成框架，它是基于并扩�
 
 另外，form-cross-view 内置了一些视图组件，作为自定义视图的参考范例，包括原生 DOM、React、Solid、Vue，可开箱即用，但目前只支持部分简单字段类型。
 
-<a href="https://gitee.com/lumoulu/form-cross-view" target="_blank">点击打开详细说明</a>
+<a href="https://github.com/upqingup/form-cross-view" target="_blank">点击打开详细说明</a>
 
 <img style="max-width: 500px" src="./demo.gif">

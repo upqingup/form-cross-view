@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/lumoulu/form-cross-view.git"
+    "url": "git+https://github.com/upqingup/form-cross-view.git"
   },
   "keywords": [
     "动态表单",
@@ -35,9 +35,9 @@
   "author": "lumou",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitee.com/lumoulu/form-cross-view/issues"
+    "url": "https://github.com/upqingup/form-cross-view/issues"
   },
-  "homepage": "https://gitee.com/lumoulu/form-cross-view#readme",
+  "homepage": "https://github.com/upqingup/form-cross-view#readme",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.12.7",
