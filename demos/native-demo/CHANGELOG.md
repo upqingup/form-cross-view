@@ -1,5 +1,19 @@
 # native-demo
 
+## 1.0.0
+
+### Major Changes
+
+- 35d1ae7: add xLog
+
+### Patch Changes
+
+- Updated dependencies [35d1ae7]
+- Updated dependencies [35d1ae7]
+- Updated dependencies
+  - @form-cross-view/core@1.0.0
+  - @form-cross-view/native-view@1.0.0
+
 ## 0.0.5
 
 ### Patch Changes

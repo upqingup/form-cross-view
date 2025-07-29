@@ -52,6 +52,5 @@ export function moveArrayItem<T>(
 }
 
 export function xLog(...args: any[]) {
-  // TODO
   console.log(...args);
 }

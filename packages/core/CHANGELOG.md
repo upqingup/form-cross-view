@@ -1,5 +1,16 @@
 # @form-cross-view/core
 
+## 1.0.0
+
+### Major Changes
+
+- 35d1ae7: add xLog
+- update xLog
+
+### Minor Changes
+
+- 35d1ae7: add xLog
+
 ## 0.0.5
 
 ### Patch Changes
