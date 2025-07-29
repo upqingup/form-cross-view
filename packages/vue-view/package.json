@@ -19,7 +19,7 @@
     "dynamic-form",
     "async-validator"
   ],
-  "author": "lumou",
+  "author": "zhangzifang",
   "license": "MIT",
   "devDependencies": {
     "@form-cross-view/core": "workspace:*",
