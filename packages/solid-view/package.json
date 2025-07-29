@@ -1,0 +1,32 @@
+{
+  "name": "@form-cross-view/solid-view",
+  "version": "0.0.5",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "rimraf -rf dist && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/lumoulu/form-cross-view.git"
+  },
+  "keywords": [
+    "动态表单",
+    "@form-cross-view",
+    "form-builder",
+    "form",
+    "components",
+    "dynamic-form",
+    "async-validator"
+  ],
+  "author": "lumou",
+  "license": "MIT",
+  "devDependencies": {
+    "solid-js": "^1.8.16",
+    "@form-cross-view/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.16",
+    "@form-cross-view/core": "workspace:*"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@form-cross-view/vue-view",
+  "version": "0.0.5",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "rimraf -rf dist && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/lumoulu/form-cross-view.git"
+  },
+  "keywords": [
+    "动态表单",
+    "@form-cross-view",
+    "form-builder",
+    "form",
+    "components",
+    "dynamic-form",
+    "async-validator"
+  ],
+  "author": "lumou",
+  "license": "MIT",
+  "devDependencies": {
+    "@form-cross-view/core": "workspace:*",
+    "vue": "^3.4.21"
+  },
+  "peerDependencies": {
+    "@form-cross-view/core": "workspace:*",
+    "vue": "^3.4.21"
+  }
+}

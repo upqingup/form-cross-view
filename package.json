@@ -1,0 +1,56 @@
+{
+  "name": "form-cross-view",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --filter ./packages/** run build",
+    "build:core": "pnpm --filter=core run build",
+    "build:native": "pnpm --filter=view-native run build",
+    "build:solid": "pnpm --filter=view-solid run build",
+    "build:react": "pnpm --filter=view-react run build",
+    "build:vue": "pnpm --filter=view-vue run build",
+    "demo:dev:native": "pnpm --filter=native-demo run dev",
+    "demo:dev:solid": "pnpm --filter=solid-demo run dev",
+    "demo:dev:react": "pnpm --filter=react-demo run dev",
+    "demo:dev:vue": "pnpm --filter=vue-demo run dev",
+    "demo:prd:native": "pnpm --filter=native-demo run prd",
+    "demo:prd:solid": "pnpm --filter=solid-demo run prd",
+    "demo:prd:react": "pnpm --filter=react-demo run prd",
+    "demo:prd:vue": "pnpm --filter=vue-demo run prd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitee.com/lumoulu/form-cross-view.git"
+  },
+  "keywords": [
+    "动态表单",
+    "@form-cross-view",
+    "form-builder",
+    "form",
+    "components",
+    "dynamic-form",
+    "async-validator"
+  ],
+  "author": "lumou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitee.com/lumoulu/form-cross-view/issues"
+  },
+  "homepage": "https://gitee.com/lumoulu/form-cross-view#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.14.3",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.8",
+    "vite-plugin-libcss": "^1.1.1",
+    "vite-plugin-solid": "^2.10.2",
+    "vue-tsc": "^2.0.13"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "vue-demo",
+  "private": true,
+  "version": "0.0.5",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force --mode dev",
+    "prd": "vite --force --mode prd"
+  },
+  "dependencies": {
+    "@form-cross-view/core": "workspace:*",
+    "@form-cross-view/vue-view": "workspace:*",
+    "vue": "^3.4.21"
+  }
+}
