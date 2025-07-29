@@ -50,3 +50,8 @@ export function moveArrayItem<T>(
   }
   return idxCur <= idxTarget ? [idxCur, idxTarget] : [idxTarget, idxCur];
 }
+
+export function xLog(...args: any[]) {
+  // TODO
+  console.log(...args);
+}
